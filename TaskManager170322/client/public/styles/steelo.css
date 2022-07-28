@@ -1,0 +1,788 @@
+@import url('https://fonts.googleapis.com/css2?family=Lexend+Deca&display=swap');
+
+html{
+    
+    background-image: url(./img/blue_blur_background.jpg);
+    background-repeat: no-repeat;
+    background-size:100% 100% ;
+     overscroll-behavior: none 
+}
+
+body{
+    height:100vh ;
+    width: 100vw;
+    background:linear-gradient(rgb(43, 73, 101),rgb(121, 155, 183));
+    background-size:100% 100% ;
+    background-attachment: fixed;
+}
+
+h1,a,p,div,label,button,input{
+    font-family: 'Lexend Deca', sans-serif;
+    color: rgb(255, 255, 255);
+}
+
+.green{
+    
+    background-color: rgb(143, 179, 57);
+}
+
+.blue{
+    background-color: rgb(121, 155, 183);
+}
+
+.grey{
+    background-color: rgb(102, 128, 102);
+}
+
+.white{
+    background-color: rgb(255, 255, 255);
+}
+.black{
+    background-color: rgb(0, 0, 0);
+}
+
+.black a{
+    color: white;
+}
+
+
+.button{
+    height: 50px;
+    width: 200px;
+}
+
+.button-blue{
+    margin-top: 10px;
+    width: 100px;
+    height: 25px;
+    margin: 3px;
+    background-color: rgb(10, 85, 170);
+    color: rgba(255, 255, 255, 0.781);
+    text-align: center;
+    border-radius: 2px;
+    transition: .3s;
+
+}
+
+.menu-button{
+    width: 33.33vw;
+    height: 50px;
+    line-height: 50px;
+    text-align: center;
+    background: rgba(255, 255, 255, 0);
+    border-bottom-style: solid;
+    border-color: rgba(255, 255, 255, 0.212);
+    border-width: 1px;
+    transition: .3s;
+    
+}
+
+.menu-button:hover{
+ 
+    background:linear-gradient(rgba(0, 0, 0, 0),rgba(239, 250, 255, 0.253));
+    /*box-shadow:3px 0px 0px 0px rgba(255, 255, 255, 0.103) inset;
+    */
+    
+}
+
+.slot{
+    width: 100%;
+    height: max-content;
+    background-color: white;
+    margin: 2px;
+    box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px,10px 0px 0px 0px rgba(36, 36, 36, 0.829) inset;
+    /*box-shadow:3px 0px 0px 0px rgba(255, 255, 255, 0.103) inset;
+    */
+    
+    
+  
+}
+.slot2{
+    
+   
+    background-color: white;
+    margin: 2px;
+    box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px,10px 0px 0px 0px rgba(36, 36, 36, 0.829) inset;
+    /*box-shadow:3px 0px 0px 0px rgba(255, 255, 255, 0.103) inset;
+    */
+    
+    
+  
+}
+.item{
+    
+    height: max-content;
+    background-color: rgba(255, 255, 255, 0.513);
+    
+    box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px,10px 0px 0px 0px rgba(36, 36, 36, 0.829) inset;
+    /*box-shadow:3px 0px 0px 0px rgba(255, 255, 255, 0.103) inset;
+    */
+    width: 100vw;
+    
+  
+}
+.ml-1{
+    margin-left: 10px;
+}
+.my-1{
+    margin-left: 2px;
+}
+.square-button2{
+    
+    width: 18vw;
+    line-height: 50px;
+    text-align: center;
+    color: black;
+    transition: .3s;
+    background-color: white;
+}
+.square-button3{
+    
+    width: 25%;
+    line-height: 30px;
+    text-align: center;
+    color: black;
+    transition: .3s;
+    background-color: rgba(255, 255, 255, 0.568);
+}
+.square-button4{
+    height: 100%;
+    width: 18vw;
+    line-height: 50px;
+    text-align: center;
+    color: black;
+    transition: .3s;
+    background-color: white;
+}
+
+.square-button2:hover{
+    background: linear-gradient(rgb(5, 102, 141),rgba(4, 80, 110, 0.781));
+   
+}
+
+
+    .square-button1{
+        height: 100px;
+        width: 100px;
+        line-height: 100px;
+        text-align: center;
+        color: black;
+        transition: .3s;}
+
+
+.square-button1:hover{
+    background: linear-gradient(rgb(5, 102, 141),rgba(4, 80, 110, 0.781));
+    border-style: solid;
+    border-color: rgba(255, 255, 255, 0.212);
+    border-width: 1px;
+}
+
+.border{
+    border-style: none;
+    
+    
+}
+.border2{
+    border-style: solid;
+    border-color: rgba(8, 0, 0, 0.383);
+    border-width: 1px;
+}
+
+.text-center{
+    text-align: center;
+}
+
+.info{
+    width: 100%;
+    height: 100%;
+}
+
+.black-text{
+    color: black;
+}
+
+.jleft{
+    justify-content: left;
+}
+.button2 {
+    height: 50px;
+    width: 100px;
+}
+
+
+.modal{
+    background:linear-gradient(rgb(43, 73, 101),rgb(121, 155, 183));
+    background-attachment: fixed;
+    
+    top: 0;
+    left: 0;
+    height: 100vh;
+    width: 100vw;
+    position: absolute;
+}
+
+.modal-child{
+    background-color: rgb(255, 255, 255);
+}
+
+.button{
+    background-color: rgb(14, 66, 14);
+}
+
+input{color: black;}
+
+.aqua1{
+    background: linear-gradient(rgb(2, 195, 154),rgb(2, 117, 92, 0.726));
+}
+
+.aqua3{
+    background: linear-gradient(rgb(5, 102, 141),rgba(4, 80, 110, 0.781));
+}
+
+.aqua4{
+    background: linear-gradient(rgb(2, 128, 144),rgba(1, 116, 131, 0.781));
+}
+
+.aqua2{
+    background: linear-gradient(rgb(0, 168, 150),rgba(1, 104, 93, 0.76));
+}
+
+.fw{width: 100%;}
+
+.fh{height: 100%;}
+
+.fhv{
+    height: 100vh;
+}
+
+.fwv{
+    width: 100vw;
+}
+@media screen and (max-width: 600px){
+
+    .square-button2, .square-button2 a{
+        font-size: 10px;
+        
+    }
+
+    .slot{
+        width: 100%;
+    }
+   
+
+    .black-text{
+        font-size:15px;
+    }
+
+    .p-1{
+        padding: 3px;
+        margin: 0;
+    }
+    .p-3{
+        padding: 5px;
+    }
+
+ 
+
+    .task-id{
+      font-size: 20px;
+      width: 80px;          
+    }
+
+    .aqua4 .task-id{
+        font-size: 20px !important;
+        width: 50px;          
+      }
+
+
+
+    .square-button1{
+        height: 100%;
+        width: 70px;
+        line-height: 100px;
+    }
+
+    .menu-button{
+        font-size: 20px;
+    }
+
+    h1{
+        padding: 0;
+        margin: 0;
+    }
+
+    .fa-2x{
+        font-size: 20px;
+    }
+
+    .button {
+        height: 100%;
+        width: 130px;
+    }
+
+    .drawingBuffer{
+       visibility: hidden;
+    }
+
+    .w100{
+        width: 50px;
+    }   
+
+    .product-text{
+        
+        font-size: 12px !important;
+        color: black;
+        
+        
+        margin-bottom: 3px;
+    
+    }
+    .info-text{
+        width: 62vw;
+        font-size: 12px !important;
+        color: rgb(27, 27, 27);
+        
+    
+    }
+    .client-text{
+        font-size: 15px;
+    
+    }
+
+    
+    
+}
+.p-4{
+    padding: 12px;
+}
+
+@media screen and (max-width: 400px){
+
+    .wh{font-size: 10px;}
+
+    .slot{
+        min-width: 100%;
+    }
+
+    .black-text{
+        font-size:10px;
+    }
+
+    .p-1{
+        padding: 2px;
+        margin: 0;
+    }
+    .p-3{
+        padding: 9px;
+    }
+    .p-4{
+        padding: 12px;
+    }
+
+    
+
+    .task-id{
+      font-size: 15px;
+      width: 80px;          
+    }
+
+    .aqua4 .task-id{
+        font-size: 15px !important;
+        width: 50px;          
+      }
+
+
+
+    .square-button1{
+        height: 100%;
+        width: 70px;
+        line-height: 70px;
+    }
+
+   
+
+    h1{
+        padding: 0;
+        margin: 0;
+    }
+
+    .fa-2x{
+        font-size: 15px;
+    }
+
+    .button {
+        height: 30px;
+        width: 130px;
+    }
+    
+
+    .drawingBuffer{
+       visibility: hidden;
+    }
+
+    .w100{
+        width: 50px;
+    }   
+
+    .product-text{
+        font-size: 10px;
+    
+    }
+
+    .menu-button{
+        font-size: 15px;
+    }
+    
+}
+
+.task-id{
+   
+    width: 100px;          
+  }
+
+
+  .error {
+    background-color: rgb(231, 153, 153) !important;
+  }
+  
+  .error p {
+    color: rgb(53, 0, 0);
+  }
+  
+  .success {
+    background-color: rgb(134, 179, 136);
+  }
+  
+  .success p {
+    color: rgb(6, 75, 0);
+  }
+  
+  .warning {
+    background-color: rgb(255, 206, 72) !important;
+  }
+  
+  .warning p {
+    color: rgb(255, 60, 0);
+  }
+
+  .message {
+    width: 100vw;
+    height: 100vh;
+    
+    transition: 0.3s;
+    position: fixed;
+    top: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+   
+    z-index: 999999;
+    background-color: rgba(255, 255, 255, 0.336);
+  }
+
+  .response{
+    width: 95vw;
+    height: 50vh;
+    z-index: 9999999;
+    box-shadow: rgb(38, 57, 77) 0px 20px 30px -10px;
+}
+
+.message_text{
+    width: 90vw;
+    text-align: center;
+    
+    
+    color: cornflowerblue;
+}
+
+  .corner {
+    width: 10vw;
+    height: 10vw;
+    padding: 3px;
+    transition: 0.3s;
+    position: fixed;
+    top: 0;
+    right: 0;
+    z-index: 999999;
+    color: white;
+    background-color: rgba(255, 0, 0, 0.637);
+  }
+  .corner:hover {
+   
+    background-color: rgba(255, 0, 0);
+  }
+  
+  .message divp {
+    width: 100vw;
+    
+    transition: 0.3s;
+  
+    padding: 5px;
+    margin-left: 10px;
+  }
+
+  
+
+
+  p{
+      margin: 0;
+  }
+
+  .fullv{
+      position: absolute;
+      top: 0;
+      left: 0;
+      height: 100vh;
+      width: 100vw;
+      background:linear-gradient(rgb(43, 73, 101),rgb(121, 155, 183));
+      z-index: 9999999;
+     
+  }
+
+  
+
+  .drawingBuffer {
+    position: absolute;
+    top: 0;
+    left: 0;
+    z-index: 0;
+  }
+
+  .button-withe{
+      margin-top: 10px;
+      width: 100px;
+      height: 25px;
+      margin: 3px;
+      background-color: white;
+      color: rgba(42, 42, 122, 0.781);
+      text-align: center;
+      border-radius: 2px;
+      transition: .3s;
+
+  }
+
+  .button-clear{
+    margin-top: 10px;
+    width: 100px;
+    height: 25px;
+    margin: 3px;
+    background-color: rgba(255, 255, 255, 0.26);
+    color: rgba(0, 0, 0, 0.781);
+    text-align: center;
+   
+    transition: .3s;
+
+}
+
+.button-white{
+    margin-top: 10px;
+    margin-bottom: 10px;
+    width: 100px;
+    height: 25px;
+    
+    background-color: white;
+    color: rgba(42, 42, 122, 0.781);
+    text-align: center;
+    border-radius: 2px;
+    transition: .3s;
+    border: none;
+
+}
+.button-white2{
+    
+    width: 100px;
+    height: 25px;
+    line-height: 25px;
+    
+    background-color: white;
+    color: rgba(42, 42, 122, 0.781);
+    text-align: center;
+    border-radius: 2px;
+    transition: .3s;
+    border: none;
+
+}
+.button-white3{
+    
+    width: 11vw;
+    line-height: 20px;
+    text-align: center;
+    color: black;
+    transition: .3s;
+    background-color: white;
+
+}
+
+
+.button-erase{
+    margin-top: 10px;
+    width: 100px;
+    height: 25px;
+    margin: 3px;
+    background-color: rgb(161, 7, 7);
+    color: rgba(255, 255, 255, 0.781);
+    text-align: center;
+    border-radius: 2px;
+    border: none;
+    transition: .3s;
+
+}
+
+  .button-withe:hover{
+  background-color: rgba(95, 118, 160, 0.712);
+
+}
+
+.box{
+    background-color: rgb(32, 53, 73);
+    padding: 20px;
+    box-shadow: rgba(0, 0, 0, 0.25) 0px 54px 55px, rgba(0, 0, 0, 0.12) 0px -12px 30px, rgba(0, 0, 0, 0.12) 0px 4px 6px, rgba(0, 0, 0, 0.17) 0px 12px 13px, rgba(0, 0, 0, 0.09) 0px -3px 5px;
+}
+
+.title{
+    margin-bottom: 10px;
+}
+.title p{
+    text-align: justify
+}
+.title2{
+    margin-bottom: 10px;
+    width: 100%;
+}
+.title2 p{
+    text-align: center
+}
+
+.main_input{
+    
+    min-width: 90vw;
+   
+    height: 30px;
+    background-color: rgba(255, 255, 255, 0.411);
+}
+
+.serialNumber{
+    width: 95vw;
+    
+    background-color: white;
+    border: black;
+}
+
+.vw95{
+    width: 95%;
+    padding: 3px;
+    left: 0;
+}
+.serialNumber div{
+    line-height: 30px;
+    color: black;
+}
+
+.m0{
+    margin: 0 !important;
+}
+
+.item-name{
+    width: 59vw;
+}
+
+.vertical-text{
+    text-orientation: upright;
+}
+
+.label{
+    color: rgb(255, 255, 255);
+    width: 150px;
+  }
+
+  .clear2{
+      background-color: rgba(0, 6, 71, 0.287);
+  }
+
+  .row{
+      width: 90%;
+      box-shadow: rgba(0, 0, 0, 0.45) 0px 25px 20px -20px;
+      height: 25px;
+      margin-bottom: 10px;
+  }
+
+  .input-manual{width: 200px;}
+
+  .child{
+      
+      position: absolute;
+      top: 0;
+  }
+
+  .userName{
+      width: 60vw;
+      font-size: 15px;
+  }
+
+  .stockt{
+      width: 23vw;
+      background-color: rgb(192, 192, 192);
+      color: black;
+      font-size: 11px;
+    }
+    .stock{
+        width: 23vw;
+        color: black;
+        font-size: 11px;
+      }
+
+      .stockt2{
+        width: 46vw;
+        background-color: rgb(192, 192, 192);
+        color: black;
+        font-size: 11px;
+      }
+      .stock2{
+          width: 46vw;
+          color: black;
+          font-size: 11px;
+        }
+
+      
+
+
+  .card{background-color: white;
+    box-shadow: rgba(0, 0, 0, 0.45) 0px 25px 20px -20px;}
+
+    .card div{ color: black;}
+
+    .m-2{
+        margin:3px;
+    }
+
+    .vw20
+    {
+        width: 20vw;
+    }
+    .vw50
+    {
+        width: 50vw;
+    }
+
+    .mcb-1{
+        
+        border-bottom: solid;
+        border-color: grey;
+    }
+
+    .fullv{
+        position: absolute;
+        top: 0;
+        left: 0;
+        height: 100vh;
+        width: 100vw;
+        background-color: rgba(116, 150, 212, 0.412);
+        z-index: 999999;
+       
+    }
+
+    .drawingBuffer {
+        position: absolute;
+        top: 0;
+        left: 0;
+      }

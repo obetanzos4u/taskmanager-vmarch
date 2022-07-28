@@ -1,0 +1,148 @@
+.flex-col {
+  display: flex;
+  flex-direction: column;
+}
+
+.flex-row {
+  display: flex;
+  flex-direction: row;
+}
+
+.flex-row-reverse {
+  display: flex;
+  flex-direction: row-reverse;
+}
+
+.flex-wrap {
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.flex-center {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.flex-top {
+  display: flex;
+  justify-content: center;
+  align-items: flex-start;
+}
+
+.flex-end {
+  display: flex;
+  justify-content: center;
+  align-items: flex-end;
+}
+
+.flex-around {
+  justify-content: space-around;
+}
+
+.flex-between {
+  justify-content: space-between;
+}
+
+.flex-jcenter {
+  display: flex;
+  justify-content: center;
+}
+
+.flex-evenly {
+  display: space-evenly;
+}
+
+.flex-inline {
+  display: inline-flex;
+}
+
+.flex-left {
+  display: flex;
+  justify-content: left;
+}
+
+.flex-to-right {
+  margin-left: auto;
+}
+
+.flex-right {
+  display: flex;
+  justify-content: flex-end;
+  justify-items: right;
+}
+
+.flex-acenter {
+  display: flex;
+  align-items: center;
+}
+
+.is-full {
+  height: 100%;
+  width: 100%;
+}
+
+
+.size1 {
+  font-size: 50px;
+}
+
+.size2 {
+  font-size: 40px;
+}
+
+.size3 {
+  font-size: 30px;
+}
+
+.size4 {
+  font-size: 20px;
+}
+
+.size5 {
+  font-size: 10px;
+}
+
+.p-1 {
+  padding: 10px;
+}
+.p-2 {
+  padding: 15px;
+}
+.p-3 {
+  padding: 20px;
+}
+
+.fw {
+  width: 100%;
+}
+.m-0 {
+  margin: 0;
+}
+
+.m-1 {
+  margin: 5px;
+}
+.my-0 {
+  margin: 0;
+}
+
+.my-1 {
+  margin-top: 5px;
+  margin-bottom: 5px;
+}
+
+.h50{
+  max-height: 50%;
+}
+
+.is-narrow{
+  max-width: max-content;
+}
+
+
+
+input{
+  min-width: max-content;
+  border-style: none;
+}
